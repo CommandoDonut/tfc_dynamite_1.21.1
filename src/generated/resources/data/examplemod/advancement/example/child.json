@@ -1,0 +1,40 @@
+{
+  "parent": "examplemod:example/root",
+  "criteria": {
+    "obtained_example_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "examplemod:example_item"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.examplemod.example/child.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_block"
+    },
+    "title": {
+      "translate": "advancements.examplemod.example/child.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtained_example_item"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "minecraft:blocks/diamond_block"
+    ]
+  },
+  "sends_telemetry_event": true
+}

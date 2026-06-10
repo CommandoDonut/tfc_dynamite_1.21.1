@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "bonus": "copy_best",
+  "first_input": {
+    "item": "tfc:metal/ingot/rose_gold"
+  },
+  "result": {
+    "count": 15,
+    "id": "examplemod:example_item"
+  },
+  "second_input": {
+    "item": "tfc:metal/ingot/rose_gold"
+  },
+  "tier": 2
+}

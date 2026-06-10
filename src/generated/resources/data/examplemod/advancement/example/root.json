@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "unlocked_example_item_recipe": {
+      "conditions": {
+        "recipe": "examplemod:example_recipe_folder/custom_recipe_name"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.examplemod.example/root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "examplemod:example_item"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.examplemod.example/root.title"
+    }
+  },
+  "requirements": [
+    [
+      "unlocked_example_item_recipe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

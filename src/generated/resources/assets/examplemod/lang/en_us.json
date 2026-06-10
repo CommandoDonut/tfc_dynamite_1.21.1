@@ -1,0 +1,15 @@
+{
+  "advancements.examplemod.example/child.description": "Craft an example item",
+  "advancements.examplemod.example/child.title": "Example Title Diamond Block",
+  "advancements.examplemod.example/root.description": "Example description",
+  "advancements.examplemod.example/root.title": "Example title",
+  "block.examplemod.example_block": "Example Block",
+  "block.examplemod.example_block_without_item": "Example Block Without Item",
+  "block.examplemod.example_stairs": "Example Stairs",
+  "examplemod.tooltip.example_item.example_tooltip": "Example Tooltip",
+  "item.examplemod.example_item": "Example Item",
+  "item.examplemod.example_item_with_custom_properties": "Example Item With Custom Properties",
+  "item.examplemod.example_simple_item": "Example Simple Item",
+  "item.examplemod.example_simple_item_with_custom_properties": "Example Simple Item With Custom Properties",
+  "itemGroup.examplemod.example_tab": "Example Tab"
+}
